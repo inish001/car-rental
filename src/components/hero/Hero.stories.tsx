@@ -1,16 +1,16 @@
-import Navbar from "./Navbar";
+import Hero from "./Hero";
 import { ReactElement } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 export default {
   title: "Components/Car-Rental",
-  component: Navbar,
+  component: Hero,
 };
 
-export const NavbarComponent = (): ReactElement => {
+export const HeroComponent = (): ReactElement => {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Hero />
     </BrowserRouter>
   );
 };

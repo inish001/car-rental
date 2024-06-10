@@ -6,6 +6,6 @@ export default {
   component: Banner,
 };
 
-export const BasicBanner = (): ReactElement => {
+export const BannerComponent = (): ReactElement => {
   return <Banner />;
 };

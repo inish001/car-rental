@@ -1,6 +1,9 @@
 // constants
 import { BANNER } from "../../constants";
 
+// styles
+import "./index.scss";
+
 const Banner = () => {
   return (
     <>
@@ -10,8 +13,8 @@ const Banner = () => {
             <div className="banner-content__text">
               <h2>{BANNER.SAVE_BIG}</h2>
               <p>
-                {BANNER.TOP_SUPPLIERS} <span>{BANNER.ALL_DAY}</span>{" "}
-                {BANNER.SUPPORT}
+                {BANNER.TOP_SUPPLIERS} {BANNER.GET}{" "}
+                <span>{BANNER.ALL_DAY}</span> {BANNER.SUPPORT}
               </p>
             </div>
           </div>
