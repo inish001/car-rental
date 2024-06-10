@@ -7,3 +7,7 @@ export const HERO = {
   BOOK_RIDE: "Book Your Ride",
   FIND_MORE: "Find Out More",
 };
+
+export const HERO_PAGES = {
+  HOME: "Home",
+};

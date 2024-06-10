@@ -1,16 +1,16 @@
-import Hero from "./Hero";
 import { ReactElement } from "react";
+import About from "./index";
 import { BrowserRouter } from "react-router-dom";
 
 export default {
-  title: "Components/Hero",
-  component: Hero,
+  title: "Pages/About",
+  component: About,
 };
 
-export const HeroComponent = (): ReactElement => {
+export const AboutPage = (): ReactElement => {
   return (
     <BrowserRouter>
-      <Hero />
+      <About />
     </BrowserRouter>
   );
 };

@@ -26,9 +26,9 @@ const Navbar = (): JSX.Element => {
     return (
       <>
         {NAVBAR?.tabs?.map((tab) => (
-          <li key={tab.path}>
-            <Link to={tab.path} {...(isMobile && { onClick: openNav })}>
-              {tab.label}
+          <li key={tab?.path}>
+            <Link to={tab?.path} {...(isMobile && { onClick: openNav })}>
+              {tab?.label}
             </Link>
           </li>
         ))}
