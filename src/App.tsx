@@ -1,11 +1,12 @@
-import { Navbar } from "./components";
-import About from "./pages/About";
+import { Hero, Navbar } from "./components";
+// import About from "./pages/About";
 
 function App() {
   return (
     <>
       <Navbar />
-      <About />
+      <Hero />
+      {/* <About /> */}
     </>
   );
 }

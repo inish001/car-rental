@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 // images and icons
 import BgShape from "/assets/hero/hero-bg.png";
-import HeroCar from "/assets/hero/main-car.png";
+import HeroCar from "/assets/hero/BMW.avif";
 import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
 
 // constants
