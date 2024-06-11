@@ -13,5 +13,6 @@ export const FOOTER = {
   EMAIL: "carrental@gmail.com",
   COMPANY: "Company",
   SUBSCRIPTION: "Subscription",
-  SUBSCRIPTION_MSG: "Subscribe with your email address for the latest news and updates."
+  SUBSCRIPTION_MSG: "Subscribe with your email address for the latest news and updates.",
+  SUBMIT: "Submit"
 };
