@@ -5,9 +5,6 @@ import "./index.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-// type
-import { IRenderTabs } from "./type";
-
 // constants
 import { NAVBAR } from "../../constants";
 
@@ -21,6 +18,10 @@ const Navbar = (): JSX.Element => {
   const openNav = () => {
     setNav(!nav);
   };
+
+  interface IRenderTabs {
+    isMobile: boolean;
+  }
 
   const RenderTabs: React.FC<IRenderTabs> = ({ isMobile }): JSX.Element => {
     return (

@@ -1,12 +1,9 @@
-import { Hero, Navbar } from "./components";
-// import About from "./pages/About";
+import { Navbar } from "./components";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      {/* <About /> */}
     </>
   );
 }

@@ -9,7 +9,9 @@ import Box2 from "/assets/about/icon2.png";
 import Box3 from "/assets/about/icon3.png";
 
 // components
-import { HeroPages } from "../../components";
+import { Footer, HeroPages, PlanTrip } from "../../components";
+
+// constants
 import { ABOUT } from "../../constants";
 
 const About = () => {
@@ -53,7 +55,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          {/* <PlanTrip /> */}
+          <PlanTrip />
         </div>
       </section>
       <div className="book-banner">
@@ -68,7 +70,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

@@ -1,8 +1,16 @@
-import "./index.scss";
+// deps
 import { memo } from "react";
-import { IHeroPages } from "./type";
 import { Link } from "react-router-dom";
+
+// styles
+import "./index.scss";
+
+// constants
 import { HERO_PAGES } from "../../constants/hero";
+
+interface IHeroPages {
+  name: string;
+}
 
 const HeroPages: React.FC<IHeroPages> = ({ name }) => {
   return (

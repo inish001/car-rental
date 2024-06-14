@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import About from "./index";
+import About from "./About";
 import { BrowserRouter } from "react-router-dom";
 
 export default {

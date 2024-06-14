@@ -1,5 +1,10 @@
+// styles
 import "./index.scss";
+
+// constants
 import { FOOTER } from "../../constants";
+
+// icons
 import { IconMail, IconPhoneCall } from "@tabler/icons-react";
 
 const Footer = () => {
